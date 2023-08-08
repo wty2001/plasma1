@@ -1,6 +1,12 @@
-PlasmaPy/docs/notebooks/formulary/solar_plasma_beta.ipynb 定义+用n，T，B算beta
-mms-examples/basic/Plasma Beta with FGM and FPI data.ipynb 处理MMS数据，中间涉及了单位换算 但压强不是由npa
-spacepy/spacepy/pybats/bats.py 有提到各个物理量的单位 压强npa 磁场nT plasma beta
+## PlasmaPy/docs/notebooks/formulary/solar_plasma_beta.ipynb 定义+用n，
+   T，B算beta
+## mms-examples/basic/Plasma Beta with FGM and FPI data.ipynb 处理MMS
+   数据，中间涉及了单位换算 但压强不是由npa；查了这个没有force
+## spacepy/spacepy/pybats/bats.py 有提到各个物理量的单位 压强npa 磁场nT 
+   plasma beta；这个算的还有force，压强梯度pressure gradient，可以参考所
+   有的单位换算和每个力是怎么处理的，有哪些处理角度；
+   另：附网站https://spacepy.github.io/_modules/spacepy/pybats/bats.html
+## 关于目前为止用到的单位换算
 ##### PeN的单位就是nPa
 
 ​                                   $1nPa=1×10^{-9}\frac{N}{m^2}$
